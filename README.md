@@ -28,3 +28,5 @@ out_page();
 
 | ![Screenshot](https://raw.githubusercontent.com/SirDagen/zp-wpta/main/img/screenshot_minnow.png)
 | ------ |
+
+ZP helps keeping the web secure. 
