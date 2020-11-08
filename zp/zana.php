@@ -21,7 +21,7 @@
  https://www.google.com/search?q=wordpress+codex+wp_style_add_data
 
  -Themes that have already been tested successfully: 
- editor, generatepress, graphy, independent-publisher, minnow, sosimple, syntax, seedlet
+ You will find in the respective file located in this directory.
 */
 
 
