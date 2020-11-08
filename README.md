@@ -26,5 +26,5 @@ out_page();
 - Keep the zana.css file in that directory (you can add and overwrite css declarations directly in this file). Thus you have to make less changes to the theme.
 - Open your website and everything should run fine like this screenshot:
 
-![Screenshot](https://raw.githubusercontent.com/SirDagen/zp-wpta/main/img/screenshot_minnow.png)
-
+| ![Screenshot](https://raw.githubusercontent.com/SirDagen/zp-wpta/main/img/screenshot_minnow.png)
+| ------ |
