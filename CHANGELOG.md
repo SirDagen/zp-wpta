@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## 1.0.6 - 2020-11-08
-- Added: Support for theme seedlet 
+- Added: Support for theme seedlet (WP 5.6)
 - Added: Lots of explanations added on how-to-use to make this publishable to GitHub
 - Changed: All kind of changed made to make this publishable to GitHub, sorted the functions a bit, etc. 
 - Added: Support added to load external sources of files for jquery.com and fonts.googleapis.com 
