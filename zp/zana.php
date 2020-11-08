@@ -919,17 +919,23 @@ function body_class() {
 }
 
 function wp_nav_menu($op) {
-	switch($op['theme_location']) { // 'menu_id' => 'primary-menu'
-	case 'primary':
+    switch($GLOBALS['zconf']['layout']) {
+    case 'seedlet':
+        $menutype=1; 
+    default:
+        $menutype=0; 
+    }
+    switch($op['theme_location']) { // 'menu_id' => 'primary-menu'
+    case 'primary':
     case 'menu-1':
-        if ($GLOBALS['zconf']['menutype']==0) {
+        if ($menutype==0) {
             echo '						<div class="menu-std-container"><ul id="menu-std" class="menu">'; // <ul id="menu-std" class="menu nav-menu">
             foreach ($GLOBALS['zconf']['navi'] as $k0=>$v0) {
                 if (empty($v0[1])) $v0[1]=$k0;
                 echo '<li id="menu-item-'.$k0.'" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-'.$k0.'"><a href="'.$v0[1].'">'.$v0[0].'</a></li>';
             } 
         }
-        if ($GLOBALS['zconf']['menutype']==1) {
+        if ($menutype==1) {
             echo '						<div class="primary-menu-container"><ul id="menu-std" class="menu-wrapper">'; // <ul id="menu-std" class="menu nav-menu">
             foreach ($GLOBALS['zconf']['navi'] as $k0=>$v0) {
                 if (empty($v0[1])) $v0[1]=$k0;
@@ -938,10 +944,10 @@ function wp_nav_menu($op) {
             } 
         }
 
-		echo '</ul></div>'; // $GLOBALS['zconf']['navi']
-	break;
-	default:
-	break;
+        echo '</ul></div>'; // $GLOBALS['zconf']['navi']
+    break;
+    default:
+    break;
 	}	
 }
 
