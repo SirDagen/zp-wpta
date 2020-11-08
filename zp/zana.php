@@ -35,7 +35,7 @@ include_once('./zp/_conf.php'); // config
 
 $GLOBALS['zconf']['gen']='ZP 1.0.6 (WPTA)'; // ZANAPRESS - a WP theme adapter
 $GLOBALS['conf']['url']=$_SERVER['SERVER_NAME'];
-$GLOBALS['wp_version']='5.6'; // runs up to 
+$GLOBALS['wp_version']='5.5'; // runs up to 
 //$GLOBALS['jqueryfiles']=['jquery-1.12.4.min.js', 'jquery-migrate-1.4.1.min.js']; // located in /layout/scripts/ 
 $GLOBALS['jqueryfiles']=['', '']; // if entries are empty, will get file from https://code.jquery.com/
 define('HASSSL', false); // is SSL installed on your webspace? 
