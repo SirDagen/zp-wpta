@@ -24,7 +24,7 @@ out_page();
 - Download the ZP archive, unzip it and upload it to your website
 - Download the minnow theme either from the wordpress or github website and put it the following directory "./layout/minnow" (it shouldnt matter if a theme hasn’t been updated for a long time). Links: https://wordpress.org/themes/minnow/ -or- https://github.com/theme/minnow-wpcom
 - Keep the zana.css file in that directory (you can add and overwrite css declarations directly in this file). Thus you have to make less changes to the theme.
-- Open the footer.php file, delete everything between `<div class="site-info">` and `</div>` and replace it with the following line:
+- Open the footer.php file, delete everything between `<div class="site-info">` and `</div>` and replace it with the following:
 `<?php echo $GLOBALS['zconf']['foot'][0]."  &nbsp; &ndash; &nbsp; ".$GLOBALS['zconf']['foot'][1]; ?>`
 - Open your website and everything should run fine, like in this screenshot:
 
