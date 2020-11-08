@@ -38,6 +38,10 @@ out_page();
 		,'software'=>array('Test', 'test.php')
 		,'kontakt'=>array('Kontakt', 'kontakt.php')
 		)
+	,'foot'=>array(
+		0=>"<a href='impressum.php'>Impressum</a> • <a href='datenschutz.php'>Datenschutz</a>"
+		,1=>"<span style='font-size:0.65em'><a href='http://www.example.com/' target='_blank'>Link</a> • <a href='http://www.example.com/' target='_blank'>Link</a> • <a href='https://github.com/SirDagen/zp-wpta' target='_blank'>ZP</a></span>"
+		)
 ```
 
 ZP helps keeping the web secure. 
