@@ -1,0 +1,8 @@
+# robots.txt - 2017-08
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: *
+Disallow: /impressum.php
+Disallow: /datenschutz.php

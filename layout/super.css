@@ -1,0 +1,55 @@
+/*
+This stylesheet will be integrated in every design. 
+You can additionally add a css to the layout directory with the name zana.css that will be included if available.
+*/
+
+.first {
+	margin-top: 0.6em;
+}
+
+p, li {
+	line-height:175%; 
+}
+
+ul.x {
+	margin-left: 20px;
+}
+ul.x li {
+	margin-bottom: 18px;
+}
+
+.tail {
+	font-size:0.65em;
+	color:#ccc;
+}
+.grey {
+	color:#999;
+}
+
+/*tables*/
+.bio tbody td {
+	vertical-align:top;
+	font-size:1.04em;
+	line-height:150%;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.bio tbody td.c1 {
+	font-weight:bold;
+}
+.bio tbody td.c3 {
+	text-align:right;
+	padding-right:32px;
+}
+
+
+/*<div id="redbox"><h6>test</h6></div>
+<div id="redbox"><h6><i>Kein Javascript</i> <span style="font-weight:normal">- Im Admin-Bereich wird <i>Javascript</i> zur ordnungsgem&auml;&szlig;en Funktion meist ben&ouml;tigt. Bitte schalten Sie dies ein. Danke!</span></h6></div>*/
+#redbox{border:3px solid #c00; margin:8px 0; background:#fcc; color:#000;margin-bottom:24px;}
+#redbox h6{margin:8px; padding:0; font-size:100%}
+#redbox p{margin:8px; padding:0;}
+
+#grbox{border:3px solid #446600; margin:8px 0; background:#D8E8D4; color:#000; margin-bottom:24px;}
+#grbox h6{margin:8px; padding:0; font-size:100%}
+#grbox p{margin:8px; padding:0;}
+

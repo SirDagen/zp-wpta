@@ -1,0 +1,6 @@
+/*
+This is an example for theme specific layout changes. Just name this file zana.css and put it in the layout directory. 
+It will be included automatically.
+*/
+
+body { font-size: 400% }

@@ -1,0 +1,13 @@
+NOTE HERE ALL THE CHANGES YOU MAKE TO THESE FILES. If you have to update this theme, you will be thankful to yourself!
+
+
+---File:
+functions.php
+
+SEARCH for
+...
+REPLACE with:
+...
+
+
+
