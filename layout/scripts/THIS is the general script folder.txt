@@ -1,9 +1,9 @@
 ---This is the general scripts folder for ALL themes/layouts.
 
+- If you dont want the themes to load fonts and jquery from other website for privacy reasons do the following:
 
-- Put every layout in its own folder, e.g. minnow, syntax. Change the footer.php and maybe functions.php according to your needs.
+a) Download the used jquery files and put them into the ./layout/scripts/ folder. The files you need, you will find in the top of the file ./zp/zana.php. Just keep the filename
 
-- If you dont want to load fonts and jquery from other website for privacy reasons do the following
-a) Download the jquery files and put them into the ./layout/scripts/ folder. The ones you need you will find in the top of the file ./zp/zana.php. Just download them and keep the filename
-b) The functions.php of your theme will tell you the fonts you need. Download all of them and store them in the ./layout/fonts/ folder. There you will find further instructions.
+b) Additionally you have to download the fonts. The fonts the theme needs, you will find in the functions.php file of your theme. Download all of them and store them in the ./layout/fonts/ folder. See there for further instructions on this matter
+
 
