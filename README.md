@@ -1,7 +1,7 @@
 # ZANAPRESS (ZP)
 ZANAPRESS (ZP) is an adapter to use WordPress themes (WPTA) to create small websites that don't need to be maintained.
 
-The web pages consist of one php-file each, which you can adapt directly in the text editor of your choice. ZP is **not** a CMS. You simply create a PHP file, which then populates the design (theme) of your choice with the given contents, e.g.
+Each web page consists of one php-file, which you can modify directly in the text editor of your choice (ZP is **not** a CMS). You simply create a PHP file, which then populates the design (theme) of your choice with the given contents, e.g.
 
 ```php
 
