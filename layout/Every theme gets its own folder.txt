@@ -1,2 +1,0 @@
-- Put every theme into its own folder in ./layout/THEME-NAME
-
