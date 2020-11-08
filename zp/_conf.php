@@ -23,7 +23,6 @@ If you have put the theme you want to use inside the layout folder, you can appl
 // conf of your website
 $GLOBALS['zconf']=array( // $GLOBALS['zconf']['title']
 	'layout'=>'/minnow' // theme (situated in ./layout/...)
-	, 'menutype'=>0 // 0=std, 1=primary (seedlet) 
 	, 'lang'=>'de'
 	,'title'=>'Testseite' 
 	,'subtitle'=>'Meine Internetpräsenz' 
