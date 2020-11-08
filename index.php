@@ -1,8 +1,8 @@
 <?php
 
-// page
+//$noindex=true; // do you want this page to be indexed by robots?
 
-//$noindex=true;
+// define content
 $GLOBALS['zdata']=array(
 	'title'=>'' /*can be empty*/ 
 	,'h1'=>'Start' 
@@ -11,10 +11,8 @@ $GLOBALS['zdata']=array(
 	);
 
 
-// out
-	
-include_once('./zp/zana.php'); // global fns
-
+// output page
+include_once('./zp/zana.php'); // run ZP
 out_page(); 
 
 
