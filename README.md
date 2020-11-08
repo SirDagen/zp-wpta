@@ -35,7 +35,7 @@ out_page();
 ```php
 	,'navi'=>array(
 		'index'=>array('Start', './')
-		,'software'=>array('Test', 'test.php')
+		,'test'=>array('Test', 'test.php')
 		,'kontakt'=>array('Kontakt', 'kontakt.php')
 		)
 	,'foot'=>array(
