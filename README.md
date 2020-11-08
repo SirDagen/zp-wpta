@@ -22,7 +22,7 @@ out_page();
 ## Initial setup
 
 - Download the ZP archive, unzip it and upload it to your website
-- Download the minnow theme either from the wordpress or github website and put it the following directory "./layout/minnow" (it doesnt matter if a theme hasn’t been updated for a long time). Use: https://wordpress.org/themes/minnow/ -or- https://github.com/theme/minnow-wpcom
+- Download the minnow theme either from the wordpress or github website and put it the following directory "./layout/minnow" (it shouldnt matter if a theme hasn’t been updated for a long time). Use: https://wordpress.org/themes/minnow/ -or- https://github.com/theme/minnow-wpcom
 - Keep the zana.css file in that directory (you can add and overwrite css declarations directly in this file). Thus you have to make less changes to the theme.
 - Open your website and everything should run fine. Screenshot:
 
