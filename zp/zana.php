@@ -3,12 +3,14 @@
 /*
  This is ZANAPRESS (ZP), an adapter to use WordPress themes (WPTA) to create small websites that don't need to be maintained 
  for years without posing major security risks.
+ 
+ https://github.com/SirDagen/zp-wpta
 
  This file should remain the SAME over all domains/instances of use. 
  Please enhance it to include new themes/designs/layouts (tha you put in layout folder) while keeping backward compatibility. 
  A list of all integrated/compatible themes is below.
  
- (C) 2017 by ZANA
+ (C) 2017... by ZANA
  
 
  -How to use:
