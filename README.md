@@ -7,7 +7,7 @@ The websites consist of one php-file each, which you can adapt directly in the t
 
 //$noindex=true; // do you want this page to be indexed by robots?
 
-// page
+// define content
 $GLOBALS['zdata']=[
     'title'=>'', /*can be empty*/ 
     'h1'=>'Home', 
@@ -15,7 +15,7 @@ $GLOBALS['zdata']=[
 <p><a href='contact.php'>Contact Us ></a></p>",
     ];
 
-// out
-include_once('./zp/zana.php'); // global fns
+// output page
+include_once('./zp/zana.php'); // run ZP
 out_page(); 
 ```
