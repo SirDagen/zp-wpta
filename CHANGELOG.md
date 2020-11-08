@@ -13,3 +13,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 1.0.5 - 2019-02-15
 - Added: Support for theme generatepress 
+
+## 1.0.0 - 2017
+- Added: Initial creation
