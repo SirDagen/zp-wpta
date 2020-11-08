@@ -920,11 +920,14 @@ function body_class() {
 
 function wp_nav_menu($op) {
     switch($GLOBALS['zconf']['layout']) {
-    case 'seedlet':
+    case '/seedlet':
         $menutype=1; 
+    break;
     default:
         $menutype=0; 
+    break;
     }
+
     switch($op['theme_location']) { // 'menu_id' => 'primary-menu'
     case 'primary':
     case 'menu-1':
