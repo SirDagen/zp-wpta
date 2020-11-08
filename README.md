@@ -16,7 +16,7 @@ $GLOBALS['zdata']=[
     ];
 
 // output page
-include_once('./zp/zana.php'); // run ZANAPRESS
+include_once('./zp/zana.php'); // run ZP
 out_page(); 
 ```
 ## Initial setup
