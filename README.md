@@ -40,7 +40,7 @@ out_page();
 		)
 	,'foot'=>array(
 		0=>"<a href='impressum.php'>Impressum</a> • <a href='datenschutz.php'>Datenschutz</a>"
-		,1=>"<span style='font-size:0.65em'><a href='http://www.example.com/' target='_blank'>Link</a> • <a href='http://www.example.com/' target='_blank'>Link</a> • <a href='https://github.com/SirDagen/zp-wpta' target='_blank'>ZP</a></span>"
+		,1=>"<a href='http://www.example.com/' target='_blank'>Link</a>"
 		)
 ```
 
