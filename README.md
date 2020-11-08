@@ -5,7 +5,7 @@ The websites consist of one php-file each, which you can adapt directly in the t
 
 ```php
 
-//$noindex=true;
+//$noindex=true; // do you want this page to be indexed by robots?
 
 // page
 $GLOBALS['zdata']=array(
@@ -14,7 +14,6 @@ $GLOBALS['zdata']=array(
 	,'body'=>"<p>Create small web sites with ZANAPRESS that do not need to be maintained.</p>
 <p><a href='contact.php'>Contact Us ></a></p>"
 	);
-
 
 // out
 include_once('./zp/zana.php'); // global fns
