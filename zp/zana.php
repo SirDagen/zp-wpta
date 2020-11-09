@@ -1,7 +1,7 @@
 <?php
 
 /*
- This is ZANAPRESS (ZP), an adapter to use WordPress themes (WPTA) to create small websites that don't need to be maintained 
+ This is ZANAPRESS (ZP), an adapter to use WordPress themes (WPTA) to create small PHP websites that don't need to be maintained 
  for years without posing major security risks.
  
  https://github.com/SirDagen/zp-wpta
