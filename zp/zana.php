@@ -927,6 +927,9 @@ function wp_nav_menu($op) {
     case '/seedlet':
         $menutype=1; 
     break;
+    case '/iconic-one':
+        $menutype=2; 
+    break;
     default:
         $menutype=0; 
     break;
@@ -947,6 +950,14 @@ function wp_nav_menu($op) {
             foreach ($GLOBALS['zconf']['navi'] as $k0=>$v0) {
                 if (empty($v0[1])) $v0[1]=$k0;
                 echo '<li id="menu-item-'.$k0.'" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-'.$k0.'"><a href="'.$v0[1].'">'.$v0[0].'</a></li>';
+                // add: menu-item-has-children 
+            } 
+        }
+        if ($menutype==2) {
+            echo '						<div class="primary-menu-container"><ul id="menu-std" class="nav-menu">'; // <ul id="menu-std" class="menu nav-menu">
+            foreach ($GLOBALS['zconf']['navi'] as $k0=>$v0) {
+                if (empty($v0[1])) $v0[1]=$k0;
+                echo '<li id="menu-item-'.$k0.'" class="page_item page-item-'.$k0.'"><a href="'.$v0[1].'">'.$v0[0].'</a></li>';
                 // add: menu-item-has-children 
             } 
         }
