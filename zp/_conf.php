@@ -20,7 +20,14 @@ If you have put the theme you want to use inside the layout folder, you can appl
 	'layout'=>'/seedlet' // https://wordpress.org/themes/seedlet/
 */
 
-// conf of your website
+// links of your website
+$GLOBALS['zlink']=[ // "<a href='{$GLOBALS['zlink']['impressum']}'>hier</a>"
+	'impressum'=>'impressum.php', 
+	'datenschutz'=>'datenschutz.php', 
+	'kontakt'=>'kontakt.php', 
+];
+
+// conf of your website// conf of your website
 $GLOBALS['zconf']=array( // $GLOBALS['zconf']['title']
 	'layout'=>'/minnow' // directory of theme (situated in ./layout...)
 	, 'lang'=>'de'
@@ -29,7 +36,7 @@ $GLOBALS['zconf']=array( // $GLOBALS['zconf']['title']
 	,'navi'=>array( // create links with: echo "<a href='{$GLOBALS['zconf']['navi']['kontakt'][1]}'>Kontakt ></a>";
 		'index'=>array('Start', './') // shortcode => Name, URL
 		,'software'=>array('Test', 'test.php')
-		,'kontakt'=>array('Kontakt', 'kontakt.php')
+		,'kontakt'=>array('Kontakt', $GLOBALS['zlink']['kontakt'])
 		)
 	,'foot'=>array(
 		0=>"<a href='impressum.php'>Impressum</a> • <a href='datenschutz.php'>Datenschutz</a>"
