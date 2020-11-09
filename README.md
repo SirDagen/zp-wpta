@@ -14,7 +14,7 @@ $GLOBALS['zdata']=[
     'title'=>'', /*can be empty*/ 
     'h1'=>'Home', 
     'body'=>"<p>Create small web sites with ZANAPRESS that do not need to be maintained.</p>
-<p><a href='contact.php'>Contact Us ></a></p>",
+<p><a href='contact.php'>Contact Us &gt;</a></p>",
     ];
 
 // output page
