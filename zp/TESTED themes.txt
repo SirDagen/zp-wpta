@@ -8,5 +8,6 @@ ZP has been tested with the following themes. You are welcome to use other theme
 - sosimple 
 - syntax 
 - seedlet
+- noto-simple
 
 
