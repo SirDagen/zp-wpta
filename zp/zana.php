@@ -33,7 +33,7 @@ $GLOBALS['laufz_s']=microtime(true);
 $GLOBALS['db_abfr']=0; 
 include_once('./zp/_conf.php'); // config
 
-$GLOBALS['zconf']['gen']='ZP 1.0.6 (WPTA)'; // ZANAPRESS - a WP theme adapter
+$GLOBALS['zconf']['gen']='ZP 1.0.7 (WPTA)'; // ZANAPRESS - a WP theme adapter
 $GLOBALS['conf']['url']=$_SERVER['SERVER_NAME'];
 $GLOBALS['wp_version']='5.5'; // runs up to 
 //$GLOBALS['jqueryfiles']=['jquery-1.12.4.min.js', 'jquery-migrate-1.4.1.min.js']; // located in /layout/scripts/ 
@@ -885,6 +885,10 @@ function get_stylesheet() {
     return apply_filters( 'stylesheet', get_option( 'stylesheet' ) );
 }
 /*seedlet end*/
+
+/*noto-simple begin*/
+function the_header_image_tag() {}
+/*noto-simple end*/
 
 
 
