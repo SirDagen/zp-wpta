@@ -29,7 +29,7 @@ $GLOBALS['zlink']=[ // "<a href='{$GLOBALS['zlink']['impressum']}'>hier</a>"
 
 // conf of your website// conf of your website
 $GLOBALS['zconf']=array( // $GLOBALS['zconf']['title']
-	'layout'=>'/minnow' // directory of theme (situated in ./layout...)
+	'layout'=>'/minnow' // directory of theme (situated in ./layout...) - with leading /
 	, 'lang'=>'de'
 	,'title'=>'Testseite' 
 	,'subtitle'=>'Meine Internetpräsenz' 
