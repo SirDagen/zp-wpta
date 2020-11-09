@@ -886,9 +886,9 @@ function get_stylesheet() {
 }
 /*seedlet end*/
 
-/*noto-simple begin*/
 function the_header_image_tag() {}
-/*noto-simple end*/
+function wp_kses_post() {}
+
 
 
 
