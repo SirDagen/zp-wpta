@@ -7,7 +7,7 @@ $GLOBALS['zdata']=array(
 	'title'=>'' /*can be empty*/ 
 	,'h1'=>'Start' 
 	,'body'=>"<p>Mit ZANAPRESS kleine Webpräsenzen erstellen, die nicht gewartet werden müssen.</p>
-<p><a href='kontakt.php'>Kontakt ></a></p>"
+<p><a href='{$GLOBALS['zlink']['kontakt']}'>Kontakt ></a></p>"
 	);
 
 
