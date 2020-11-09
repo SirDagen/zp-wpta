@@ -6,7 +6,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## 1.0.7 - 2020-11-09
-- Added: Support for theme iconic-one 
 - Added: Support for theme noto-simple 
 
 ## 1.0.6 - 2020-11-08
