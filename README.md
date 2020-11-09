@@ -1,5 +1,5 @@
 # ZANAPRESS (ZP)
-Man I love WordPress and its designs, but sometimes a website is just too small to run it with an instance of WordPress - all that updating of plugins, the core, themes... Instead I often use ZANAPRESS. 
+Man, I love WordPress and its designs, but sometimes a web site is just too tiny to run it with an instance of WordPress - all that updating of the plugins, the core, the themes... Instead I often use ZANAPRESS. 
 
 ZANAPRESS (ZP) is an adapter to use WordPress themes (WPTA) to create small PHP websites that don't need to be maintained/updated. 
 
