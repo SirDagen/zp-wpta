@@ -51,6 +51,6 @@ out_page();
 
 You find more information at these places:
 - Information about the supported themes: ./zp/TESTED themes.txt
-- How to include other/new themes: .zp/zana.php
+- How to include other/new themes: ./zp/zana.php
 
 ZP helps keeping the web secure. 
