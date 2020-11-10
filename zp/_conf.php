@@ -35,7 +35,7 @@ $GLOBALS['zconf']=array( // $GLOBALS['zconf']['title']
 	,'title'=>'Testseite' 
 	,'subtitle'=>'Meine Internetpräsenz' 
 	,'navi'=>array( // create links with: echo "<a href='{$GLOBALS['zconf']['navi']['kontakt'][1]}'>Kontakt ></a>";
-		'index'=>array('Start', './') // shortcode => Name, URL
+		'index'=>array('Start', $GLOBALS['zlink']['index']) // shortcode => Name, URL
 		,'software'=>array('Test', 'test.php')
 		,'kontakt'=>array('Kontakt', $GLOBALS['zlink']['kontakt'])
 		)
