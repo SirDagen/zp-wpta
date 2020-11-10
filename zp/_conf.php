@@ -22,6 +22,7 @@ If you have put the theme you want to use inside the layout folder, you can appl
 
 // links of your website
 $GLOBALS['zlink']=[ // "<a href='{$GLOBALS['zlink']['impressum']}'>hier</a>"
+	'index'=>'./', 
 	'impressum'=>'impressum.php', 
 	'datenschutz'=>'datenschutz.php', 
 	'kontakt'=>'kontakt.php', 
