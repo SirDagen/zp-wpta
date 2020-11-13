@@ -50,7 +50,7 @@ out_page();
 ## More information
 
 You find more information at these places:
-- Information about the supported themes: ./zp/TESTED themes.txt
+- Information about the supported themes: [./zp/TESTED themes.txt](https://github.com/SirDagen/zp-wpta/blob/main/zp/TESTED%20themes.txt)
 - How to include other/new themes: ./zp/zana.php
 
 ZP helps keeping the web secure. 
